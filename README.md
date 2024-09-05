@@ -86,12 +86,10 @@ Minecraft UI themed CSS framework.
        .pipe(gulp.dest('dist'));
    });
    
-   gulp.task('default', gulp.series('styles'));
-```
+   gulp.task('default', gulp.series('styles'));```
 
-3. **Compile**  
+3. **Compile**
    ```bash
    npx gulp
-```
+   ```
 
----
