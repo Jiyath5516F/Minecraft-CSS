@@ -52,14 +52,14 @@
   font-family:MinecraftRegular;
   font-style:normal;
   font-weight:400;
-  src:url(../fonts/Minecraft-Regular.otf) format("opentype");
+  src:url(/src/fonts/Minecraft-Regular.otf) format("opentype");
 }
 
 @font-face{
   font-family:MinecraftTen;
   font-style:normal;
   font-weight:400;
-  src:url(../fonts/Minecraft-Ten.ttf) format("truetype");
+  src:url(/src/fonts/Minecraft-Ten.ttf) format("truetype");
 }
 
 *{
