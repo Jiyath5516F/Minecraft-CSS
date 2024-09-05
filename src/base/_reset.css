@@ -1,0 +1,45 @@
+/* _reset.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    caret-color: #3C8527;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+}
+
+
+hr.no-padding {
+    width: calc(100% + 32px);
+    border: 0;
+    border-top: 2.5px solid var(--hr-top-color);
+    border-bottom: 2.5px solid var(--hr-bottom-color);
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0.5em 0;
+    margin-left: -16px;
+    margin-right: -16px;
+}

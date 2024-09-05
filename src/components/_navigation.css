@@ -1,0 +1,39 @@
+/* _navigation.css */
+
+.navbar {
+  border-bottom: 3px solid #151516;
+  width: 100%;
+  background-color: #E6E8EB;
+  box-shadow: inset 0px -6px #B1B2B5;
+  justify-content: space-around;
+  font-family: "MinecraftTen";
+  font-weight: normal;
+  font-style: normal;
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  justify-content: space-between;
+  padding-top: auto;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.navbar-nav a {
+  color: var(--text-dark-color);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+}

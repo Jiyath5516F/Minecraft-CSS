@@ -1,0 +1,62 @@
+/* _colors.css */
+
+/* Base Colors */
+:root {
+    --primary-color: #313233;
+    --secondary-color: #48494A;
+    --accent-color: #D0D1D4;
+    --background-color: #48494A;
+    --text-color: #ffffff;
+    --text-dark-color: #000000;
+    --link-color: #007bff;
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --selected-color: #48494A;
+
+    --hr-top-color: #333334;
+    --hr-bottom-color: #5A5B5C;
+
+
+
+    /* button-primary colors */
+    --btn-primary-inner-color: #3C8527;
+    --btn-primary-inner-hover-color: #2A641C;
+    --btn-primary-inner-shadow-color: #1D4D13;
+    --btn-primary-border-color: #1E1E1F;
+    --btn-primary-inner-border-lt-color: #4F913Cbf;
+    --btn-primary-inner-border-br-color: #639D52;
+    --btn-primary-text-color: #FFFFFF;
+
+    /* button-primary colors */
+    --btn-secondary-inner-color: #7345E5;
+    --btn-secondary-inner-hover-color: #5D2CC6;
+    --btn-secondary-inner-shadow-color: #4A1CAC;
+    --btn-secondary-border-color: #1E1E1F;
+    --btn-secondary-inner-border-lt-color: #A264F2bf;
+    --btn-secondary-inner-border-br-color: #8E49EB;
+    --btn-secondary-text-color: #FFFFFF;
+
+    /* button-tertiary colors */
+    --btn-tertiary-inner-color: #D0D1D4;
+    --btn-tertiary-inner-hover-color: #B1B2B5;
+    --btn-tertiary-inner-shadow-color: #58585A;
+    --btn-tertiary-border-color: #1E1E1F;
+    --btn-tertiary-inner-border-lt-color: #ECEDEEbf;
+    --btn-tertiary-inner-border-br-color: #E3E3E5;
+    --btn-tertiary-text-color: #000000;
+
+    /* button-normal colors */
+    --btn-normal-inner-color: #C6C6C6;
+    --btn-normal-border-color: #131313;
+    --btn-normal-inner-border-lt-color: #f7f7f7bf;
+    --btn-normal-inner-border-br-color: #656465;
+    --btn-normal-text-color: #4C4C4C;
+
+    --btn-normal-inner-hover-color: #218306;
+    --btn-normal-border-hover-color: #FFFFFF;
+    --btn-normal-inner-border-lt-hover-color: #17CD07bf;
+    --btn-normal-inner-border-br-hover-color: #004E00;
+    --btn-normal-text-hover-color: #FFFFFF;
+}

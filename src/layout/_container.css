@@ -1,0 +1,57 @@
+/* _container.css */
+
+/* Base container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Fluid container for full-width layouts */
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacing-md, 16px);
+  padding-right: var(--spacing-md, 16px);
+}
+
+/* Responsive container widths for different breakpoints */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Utility classes for padding inside containers */
+.container-padding-sm {
+  padding: var(--spacing-sm, 8px);
+}
+
+.container-padding-md {
+  padding: var(--spacing-md, 16px);
+}
+
+.container-padding-lg {
+  padding: var(--spacing-lg, 32px);
+}

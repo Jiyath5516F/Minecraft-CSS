@@ -1,0 +1,15 @@
+/* _fonts.css */
+
+@font-face {
+  font-family: 'MinecraftRegular';
+  src: url('../fonts/Minecraft-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinecraftTen';
+  src: url('../fonts/Minecraft-Ten.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+/* _visibility.css */
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  visibility: hidden;
+}

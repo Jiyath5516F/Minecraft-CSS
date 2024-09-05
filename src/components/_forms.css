@@ -1,0 +1,61 @@
+/* _forms.css */
+
+
+.form-group {
+  font-family: 'MinecraftRegular', sans-serif;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-color, white);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+}
+
+.form-input {
+  font-family: 'MinecraftRegular', sans-serif;
+  height: 40px;
+  color: white;
+  background-color: #313233;
+  border: 3px solid #1e1e1f;
+  box-shadow: inset 0px 6px #242425;
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 3px solid #1E1E1F;
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+
+.form-button {
+  color: var(--btn-normal-text-color);
+  font-family: 'MinecraftRegular', sans-serif;
+  box-shadow:
+    inset 1.5px 1.5px 0 var(--btn-normal-inner-border-lt-color),
+    inset -1.5px -1.5px 0 var(--btn-normal-inner-border-br-color);
+  background: var(--btn-normal-inner-color);
+  background-color: var(--btn-normal-inner-color);
+  border: 1.5px solid var(--btn-normal-border-color);
+  padding: var(--spacing-sm) var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  transition: .0s;
+}
+
+.form-button:hover {
+  color: var(--btn-normal-text-hover-color);
+  font-family: 'MinecraftRegular', sans-serif;
+  box-shadow:
+    inset 1.5px 1.5px 0 var(--btn-normal-inner-border-lt-hover-color),
+    inset -1.5px -1.5px 0 var(--btn-normal-inner-border-br-hover-color);
+  background: var(--btn-normal-inner-hover-color);
+  background-color: var(--btn-normal-inner-hover-color);
+  border: 1.5px solid var(--btn-normal-border-hover-color);
+}

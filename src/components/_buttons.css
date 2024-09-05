@@ -1,0 +1,135 @@
+/* _buttons.css */
+
+.button {
+  margin: var(--spacing-sm) var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--btn-primary-text-color);
+  cursor: pointer;
+}
+
+.button-primary {
+  font-family: "MinecraftTen", sans-serif;
+  box-shadow: inset 0px -6px 0px 0px var(--btn-primary-inner-shadow-color),
+      inset 3px 3px 0 var(--btn-primary-inner-border-lt-color),
+      inset -3px -9px 0 var(--btn-primary-inner-border-br-color);
+  background: var(--btn-primary-inner-color);
+  background-color: var(--btn-primary-inner-color);
+  border: 3px solid var(--btn-primary-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2.5px 2.5px 0px rgba(0, 0, 0, 0.343);
+  /* height: 40px; */
+  /* width: 20%; */
+  user-select: none;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.button-primary:hover {
+  background-color: var(--btn-primary-inner-hover-color);
+}
+
+.button-primary:active {
+  position: relative;
+  top: 2px;
+  box-shadow: inset 0px 0px 0px 0px var(--btn-primary-inner-shadow-color),
+      inset 3px 3px 0 var(--btn-primary-inner-border-lt-color),
+      inset -3px -3px 0 var(--btn-primary-inner-border-br-color);
+}
+
+.button-secondary {
+  font-family: "MinecraftRegular", sans-serif;
+  box-shadow: inset 0px -6px 0px 0px var(--btn-secondary-inner-shadow-color),
+      inset 3px 3px 0 var(--btn-secondary-inner-border-lt-color),
+      inset -3px -9px 0 var(--btn-secondary-inner-border-br-color);
+  background: var(--btn-secondary-inner-color);
+  background-color: var(--btn-secondary-inner-color);
+  border: 3px solid var(--btn-secondary-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  padding-bottom: 12px;
+}
+
+.button-secondary:hover {
+  background-color: var(--btn-secondary-inner-hover-color);
+}
+
+.button-secondary:active {
+  position: relative;
+  top: 2px;
+  box-shadow: inset 0px 0px 0px 0px var(--btn-secondary-inner-shadow-color),
+      inset 3px 3px 0 var(--btn-secondary-inner-border-lt-color),
+      inset -3px -3px 0 var(--btn-secondary-inner-border-br-color);
+}
+
+.button-tertiary {
+  color: var(--btn-tertiary-text-color);
+  font-family: "MinecraftRegular", sans-serif;
+  box-shadow: inset 0px -6px 0px 0px var(--btn-tertiary-inner-shadow-color),
+      inset 3px 3px 0 var(--btn-tertiary-inner-border-lt-color),
+      inset -3px -9px 0 var(--btn-tertiary-inner-border-br-color);
+  background: var(--btn-tertiary-inner-color);
+  background-color: var(--btn-tertiary-inner-color);
+  border: 3px solid var(--btn-tertiary-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  padding-bottom: 12px;
+  transition: 0s;
+}
+
+.button-tertiary:hover {
+  background-color: var(--btn-tertiary-inner-hover-color);
+}
+
+.button-tertiary:active {
+  position: relative;
+  top: 2px;
+  box-shadow: inset 0px 0px 0px 0px var(--btn-tertiary-inner-shadow-color),
+      inset 3px 3px 0 var(--btn-tertiary-inner-border-lt-color),
+      inset -3px -3px 0 var(--btn-tertiary-inner-border-br-color);
+}
+
+.button-normal {
+  color: var(--btn-normal-text-color);
+  font-family: "MinecraftRegular", sans-serif;
+  box-shadow: inset 1.5px 1.5px 0 var(--btn-normal-inner-border-lt-color),
+      inset -1.5px -1.5px 0 var(--btn-normal-inner-border-br-color);
+  background: var(--btn-normal-inner-color);
+  background-color: var(--btn-normal-inner-color);
+  border: 1.5px solid var(--btn-normal-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  transition: 0s;
+}
+
+.button-normal:hover {
+  color: var(--btn-normal-text-hover-color);
+  font-family: "MinecraftRegular", sans-serif;
+  box-shadow: inset 1.5px 1.5px 0
+          var(--btn-normal-inner-border-lt-hover-color),
+      inset -1.5px -1.5px 0 var(--btn-normal-inner-border-br-hover-color);
+  background: var(--btn-normal-inner-hover-color);
+  background-color: var(--btn-normal-inner-hover-color);
+  border: 1.5px solid var(--btn-normal-border-hover-color);
+}
+
+.button-normal:active {
+  position: relative;
+}

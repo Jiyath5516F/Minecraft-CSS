@@ -1,0 +1,60 @@
+/* _typography.css */
+@import '../base/_fonts.css';
+
+body {
+    font-family: 'MinecraftRegular', sans-serif;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'MinecraftTen', sans-serif !important;
+    margin-bottom: 0.5em;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: var(--link-color, #007bff);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.anchor-btn {
+    font-family: 'MinecraftTen', sans-serif;
+}
+
+.font-ten {
+    font-family: 'MinecraftTen', sans-serif;
+}

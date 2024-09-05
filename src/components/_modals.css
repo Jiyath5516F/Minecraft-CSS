@@ -1,0 +1,32 @@
+/* _modals.css */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: var(--background-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.modal-header {
+  padding: var(--spacing-md);
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.modal-body {
+  padding: var(--spacing-md);
+}
+
+.modal-footer {
+  padding: var(--spacing-md);
+  text-align: right;
+}
+
+.modal-open {
+  display: block;
+}
